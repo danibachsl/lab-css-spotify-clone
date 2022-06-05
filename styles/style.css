@@ -44,7 +44,7 @@ nav ul {
 .section1 {
 	display: flex;
 	flex-direction: column;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
@@ -70,6 +70,7 @@ nav ul {
 
 .section2 {
     height: 600px;
+    flex-wrap: wrap;
 }
 
 .section2title {
@@ -79,8 +80,8 @@ nav ul {
     font-size: 1.5em;
 }
 
-.lines {
-    color: #00B172;
+.section2 .lines {
+    background-color: #00B172;
     margin-left: 40%;
     margin-right: 40%;
 }
@@ -120,19 +121,24 @@ nav ul {
     margin: 30px 30px;
     display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
 	align-content: stretch;
 }
 
+#lines {
+    background-color: white;
+   
+}
+
 .spotifylastlogo {
-    width: 150px;
+    width: 120px;
     margin: 12px 12px;
 }
 
 .kanyewestimage {
-    width: 350px;
+    width: 300px;
     margin: 5px 5px;
 }
 
