@@ -27,7 +27,6 @@ header > div {
 nav {
     width: 600px;
     margin: 9px 9px;
-    position: right;
 }
   
 nav ul {
@@ -40,7 +39,7 @@ nav ul {
 
 #headerimage {
     width: 130px;
-    
+    margin: 12px 5px;
 }
 
 .section1 {
@@ -66,10 +65,54 @@ nav ul {
 #section1paragraph {
     width: 1200px;
     text-align: center;
-    margin: 30px 10px;
+    margin: 50px 10px;
     color: #fff;
 }
 
+.section2 {
+    height: 500px;
+}
+
+.section2title {
+    color: black;
+    text-align: center;
+    padding: 35px 5px;
+    font-size: 1.5em;
+}
+
+#lines {
+    color: #00B172;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.minilogos {
+    width: 100px;
+    margin: 12px 5px;
+}
+
+.minititles {
+    color: #00B172;
+    font-size: 20px;
+    text-align: center;
+}
+
+.miniparts {
+    align-content: center;
+}
+.miniparts p {
+    text-align: center;
+}
+
+.section2content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+    margin: 15px 30px;
+}
 
 
 
